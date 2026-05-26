@@ -85,3 +85,9 @@ lib/
   real path is an `EventChannel` streaming `progress` / `done` from the
   service.
 - Demo summary is hardcoded — `PaymentRepositoryImpl` does not hit a network.
+
+
+
+https://github.com/user-attachments/assets/14be66c1-1cc2-4630-9ed9-2d1ac3e77ce2
+
+
