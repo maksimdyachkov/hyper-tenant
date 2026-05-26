@@ -1,0 +1,121 @@
+# =============================================================================
+# Flutter / Dart
+# =============================================================================
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.metadata
+pubspec.lock
+.fvm/
+.flutter-versions
+
+# Generated code (json_serializable, freezed, build_runner)
+# Keep .g.dart / .freezed.dart in the repo only if your team prefers committed
+# generated code; otherwise uncomment the lines below.
+# *.g.dart
+# *.freezed.dart
+# *.gr.dart
+# *.config.dart
+# *.mocks.dart
+
+coverage/
+test/.test_coverage.dart
+
+# =============================================================================
+# Android
+# =============================================================================
+android/.gradle/
+android/.idea/
+android/captures/
+android/local.properties
+android/key.properties
+android/app/release/
+android/app/debug/
+android/app/profile/
+android/app/*.jks
+android/app/*.keystore
+android/**/gradle-wrapper.jar
+android/**/GeneratedPluginRegistrant.java
+android/**/.cxx/
+
+# =============================================================================
+# iOS / macOS
+# =============================================================================
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/App.framework
+ios/Flutter/flutter_export_environment.sh
+ios/Flutter/Generated.xcconfig
+ios/Flutter/ephemeral/
+ios/Runner/GeneratedPluginRegistrant.*
+ios/ServiceDefinitions.json
+**/Pods/
+**/Podfile.lock
+**/.dart_tool/
+**/Generated.xcconfig
+**/ephemeral/
+
+macos/Flutter/ephemeral/
+macos/Flutter/GeneratedPluginRegistrant.swift
+macos/Flutter/Flutter-Debug.xcconfig
+macos/Flutter/Flutter-Release.xcconfig
+macos/Pods/
+
+# =============================================================================
+# Web / Linux / Windows
+# =============================================================================
+web/build/
+linux/flutter/ephemeral/
+windows/flutter/ephemeral/
+
+# =============================================================================
+# IDEs
+# =============================================================================
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.history/
+.vscode-test/
+
+# Xcode
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcuserstate
+xcuserdata/
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+DerivedData/
+
+# =============================================================================
+# OS
+# =============================================================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# =============================================================================
+# Logs / env / temp
+# =============================================================================
+*.log
+*.tmp
+*.swp
+*~
+.env
+.env.*
+!.env.example

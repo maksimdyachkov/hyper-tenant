@@ -1,0 +1,14 @@
+[
+  { "type": "amount_due" },
+  {
+    "type": "bill_breakdown",
+    "data": {
+      "items": [
+        { "label": "Energy usage", "amount": 84.10 },
+        { "label": "Service charge", "amount": 32.00 },
+        { "label": "Taxes & levies", "amount": 12.30 }
+      ]
+    }
+  },
+  { "type": "pay_button" }
+]

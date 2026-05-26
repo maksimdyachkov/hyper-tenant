@@ -1,0 +1,5 @@
+[
+  { "type": "amount_due" },
+  { "type": "promo_banner", "data": { "text": "PROMO 20% OFF!" } },
+  { "type": "pay_button" }
+]
