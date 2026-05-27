@@ -11,11 +11,12 @@ Utility Pay), Android native security integration, and a 60/120 FPS
 > latest stable versions, but since the task is already submitted for
 > review, the upgrade is documented here rather than applied to the code.*
 >
-> Built and verified on **Flutter 3.27**. Newer Flutter SDKs or Android
-> Studio releases may have raised their minimum supported AGP / Kotlin /
-> Gradle versions; if the build refuses to start, bump AGP to `8.6`, Kotlin
-> to `2.1`, Gradle to `8.7`, or pass
-> `--android-skip-build-dependency-validation` to skip the dependency check.
+> Built and verified on **Flutter 3.27** — runs cleanly with no warnings.
+> On newer Flutter SDKs the bundled validator may print warnings (or, on
+> recent enough releases, block the build) about AGP / Kotlin / Gradle
+> versions. To silence the validator, pass
+> `--android-skip-build-dependency-validation`; to upgrade for real, bump
+> AGP to `8.6`, Kotlin to `2.1`, Gradle to `8.7`.
 
 ## Run
 
